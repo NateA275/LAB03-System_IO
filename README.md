@@ -9,7 +9,7 @@ Additionally, the user has the ability to add and remove words from their librar
 
 ## Visual
 
-![screen_cap](./Assets/Capture.PNG)
+![screen_cap](/Word_Guess_Game/Assets/Capture.PNG)
 
 ## Getting Started
 
