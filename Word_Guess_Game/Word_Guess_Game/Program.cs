@@ -30,12 +30,24 @@ namespace Word_Guess_Game
                             RunGame();
                             break;
                         case 2:
-                            AddWord();
+                            Console.Clear();
+                            Console.Write("Enter word to add: ");
+                            AddWord(GetUserString());
                             break;
                         case 3:
-                            RemoveWord();
+                            Console.Clear();
+                            PrintWords();
+                            Console.Write("Enter word to remove: ");
+                            RemoveWord(GetUserString());
                             break;
                         case 4:
+                            Console.Clear();
+                            PrintWords();
+                            Console.WriteLine("\nPress ENTER to Continue");
+                            Console.ReadLine();
+                            Console.Clear();
+                            break;
+                        case 5:
                             runFlag = false;
                             break;
                     }
@@ -126,15 +138,11 @@ namespace Word_Guess_Game
         /// <summary>
         /// AddWord - Users can add a word the the Game's library
         /// </summary>
-        public static void AddWord()
+        public static void AddWord(string newWord)
         {
             Console.Clear();
             try
             {
-                Console.Write("Enter new word: ");
-
-                string newWord = GetUserString();
-
                 using (StreamWriter sw = File.AppendText(path))
                 {
                     sw.WriteLine(newWord);
@@ -155,13 +163,10 @@ namespace Word_Guess_Game
         /// <summary>
         /// RemoveWord - Users can remove a word from the Game's library
         /// </summary>
-        public static void RemoveWord()
+        public static void RemoveWord(string oldWord)
         {
             try
             {
-                PrintWords();
-                Console.Write("Enter word to remove: ");
-                string oldWord = GetUserString();
                 string tempFile = Path.GetTempFileName();
                 using (StreamReader sr = new StreamReader(path))
                 using (StreamWriter sw = new StreamWriter(tempFile))
@@ -175,7 +180,6 @@ namespace Word_Guess_Game
                 }
                 File.Delete(path);
                 File.Move(tempFile, path);
-
                 ReadFile();
             }
             catch (Exception)
@@ -240,7 +244,7 @@ namespace Word_Guess_Game
             try
             {
                 int choice = Convert.ToInt32(Console.ReadLine());
-                if (choice < 1 || choice > 4)
+                if (choice < 1 || choice > 5)
                 {
                     Console.WriteLine("Try again.");
                     choice = GetUserNum();
@@ -314,7 +318,8 @@ namespace Word_Guess_Game
             Console.WriteLine("1. Start New Game");
             Console.WriteLine("2. Add New Word");
             Console.WriteLine("3. Remove Word");
-            Console.WriteLine("4. Exit");
+            Console.WriteLine("4. View Word Bank");
+            Console.WriteLine("5. Exit");
         }
     }
 }

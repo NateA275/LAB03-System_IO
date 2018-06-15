@@ -1,0 +1,17 @@
+C:\Users\Nate\codefellows\401\LAB03-System_IO\Word_Guess_Game\WordGuessTests\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Nate\codefellows\401\LAB03-System_IO\Word_Guess_Game\WordGuessTests\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Nate\codefellows\401\LAB03-System_IO\Word_Guess_Game\WordGuessTests\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Nate\codefellows\401\LAB03-System_IO\Word_Guess_Game\WordGuessTests\bin\Debug\netcoreapp2.1\WordGuessTests.deps.json
+C:\Users\Nate\codefellows\401\LAB03-System_IO\Word_Guess_Game\WordGuessTests\bin\Debug\netcoreapp2.1\WordGuessTests.runtimeconfig.json
+C:\Users\Nate\codefellows\401\LAB03-System_IO\Word_Guess_Game\WordGuessTests\bin\Debug\netcoreapp2.1\WordGuessTests.runtimeconfig.dev.json
+C:\Users\Nate\codefellows\401\LAB03-System_IO\Word_Guess_Game\WordGuessTests\bin\Debug\netcoreapp2.1\WordGuessTests.dll
+C:\Users\Nate\codefellows\401\LAB03-System_IO\Word_Guess_Game\WordGuessTests\bin\Debug\netcoreapp2.1\WordGuessTests.pdb
+C:\Users\Nate\codefellows\401\LAB03-System_IO\Word_Guess_Game\WordGuessTests\bin\Debug\netcoreapp2.1\Word_Guess_Game.dll
+C:\Users\Nate\codefellows\401\LAB03-System_IO\Word_Guess_Game\WordGuessTests\bin\Debug\netcoreapp2.1\Word_Guess_Game.pdb
+C:\Users\Nate\codefellows\401\LAB03-System_IO\Word_Guess_Game\WordGuessTests\obj\Debug\netcoreapp2.1\WordGuessTests.csprojAssemblyReference.cache
+C:\Users\Nate\codefellows\401\LAB03-System_IO\Word_Guess_Game\WordGuessTests\obj\Debug\netcoreapp2.1\WordGuessTests.csproj.CoreCompileInputs.cache
+C:\Users\Nate\codefellows\401\LAB03-System_IO\Word_Guess_Game\WordGuessTests\obj\Debug\netcoreapp2.1\WordGuessTests.AssemblyInfoInputs.cache
+C:\Users\Nate\codefellows\401\LAB03-System_IO\Word_Guess_Game\WordGuessTests\obj\Debug\netcoreapp2.1\WordGuessTests.AssemblyInfo.cs
+C:\Users\Nate\codefellows\401\LAB03-System_IO\Word_Guess_Game\WordGuessTests\obj\Debug\netcoreapp2.1\WordGuessTests.csproj.CopyComplete
+C:\Users\Nate\codefellows\401\LAB03-System_IO\Word_Guess_Game\WordGuessTests\obj\Debug\netcoreapp2.1\WordGuessTests.dll
+C:\Users\Nate\codefellows\401\LAB03-System_IO\Word_Guess_Game\WordGuessTests\obj\Debug\netcoreapp2.1\WordGuessTests.pdb
